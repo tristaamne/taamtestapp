@@ -1,3 +1,35 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+body {
+    background-color: #181818;
+}
+
+@font-face {
+    font-family: 'Helvetica Neue';
+    src: local('helveticaneue'), url('./assets/fonts/helveticaneue/HelveticaNeue.ttf');
+    font-style: normal;
+    font-weight: 400;
+}
+
+@font-face {
+    font-family: 'Helvetica Neue';
+    src: local('hevelticaneue'), url('./assets/fonts/helveticaneue/HelveticaNeueMed.ttf');
+    font-style: normal;
+    font-weight: 500;
+}
+
+@font-face {
+    font-family: 'Helvetica Neue';
+    src: local('hevelticaneue'), url('./assets/fonts/helveticaneue/HelveticaNeueMedium.ttf');
+    font-style: normal;
+    font-weight: 700;
+}
+
+@font-face {
+    font-family: 'Helvetica Neue';
+    src: local('hevelticaneue'), url('./assets/fonts/helveticaneue/HelveticaNeuBold.ttf');
+    font-style: normal;
+    font-weight: 800;
+}

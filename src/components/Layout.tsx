@@ -31,7 +31,7 @@ const LayOut: FunctionComponent<LayOutProps> = () => {
 
     return (
         <div className="flex h-screen">
-            <div className="p-4 w-fit flex flex-2 flex-col gap-[15px] bg-pureblack">
+            <div className="fixed h-screen p-4 w-fit flex flex-2 flex-col gap-[15px] bg-pureblack">
                 <div className="flex items-center gap-[10px] w-fit">
                     <img src={Tlogo} alt="T" className="w-[41px] h-[40px] rounded-full" />
                     <p className="pointer-events-none text-primary font-semibold">TrisTaamneeee</p>
